@@ -1,0 +1,10 @@
+{
+  "name": "reproduce-error",
+  "workspaces": [
+    "landing-page/ui"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "npm run build -ws --if-present"
+  }
+}
